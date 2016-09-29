@@ -1,0 +1,118 @@
+html {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-image: url("../images/bg.png");
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	margin: 0px;
+	padding: 0px;
+	height: 100%
+}
+
+.wrapper {
+	min-height: 100%;
+	position: relative;
+	height: -80px;
+}
+
+header {
+	background-color: #ffffff;
+	top: 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 80px;
+	border: 0px;
+	width: 100%;
+}
+
+h1, h2, h3 { 
+	font-family: 'Georgia', Times, Times New Roman, serif; 
+}
+
+h1 {
+	background-color: #4aaaa5;
+	float: left;
+	color: #ffffff;
+	margin-left: 250px;
+}
+
+#About {
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+
+#Portfolio {
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+
+#Contact {
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+
+main {
+	width: 650px;
+	margin: auto;
+	background-color: #ffffff;
+	padding: 30px;
+}
+
+h2 {
+	border-bottom: 3px solid #dddddd;
+	padding-bottom: 30px;
+	margin: 0px;
+	color: #4aaaa5;
+}
+
+#eeyore {
+	float: left;
+	padding-right: 30px;
+	padding-top: 15px;
+}
+
+#helloWorld {
+	margin-top: 30px;
+}
+
+#portImg {
+	padding: 20px;
+}
+
+h3 span { 
+   color: white;    
+   background: #4aaaa5;
+   padding: 10px; 
+}
+
+h3 {
+	color: #4aaaa5;
+}
+
+aside {
+	clear: both;
+	width: 270px;
+	margin: auto;
+	background: #ffffff;
+	text-align: center;
+}
+
+footer {
+	position: absolute;
+	background-color: #666666;
+	width: 100%;
+	height: 70px;
+	bottom: 0px;
+	left: 0px;
+	border-top: 10px solid #4aaaa5;
+	text-align: center;
+	color: #c0c0c0;
+	font-size: 14px;
+}
